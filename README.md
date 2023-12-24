@@ -3,7 +3,7 @@ I wanted a program that would beep at me when it was likely that the microphone 
 
 Run using Python 3, various modules are required (sounddevice, numpy, tkinter, pygame)
 
-There is some Windows specific code in yhe GUI script to minimise the console window, this can be commented out to use it on other systems.
+There is some Windows specific code in the GUI script to minimise the console window, this can be commented out to use it on other systems.
 ```
 kernel32 = ctypes.WinDLL('kernel32')
 user32 = ctypes.WinDLL('user32')
